@@ -1,8 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FEE59DD4-3024-4D86-A07D-26DAC5449E2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllPlay.ApiGateway", "src\AllPlay.ApiGateway\AllPlay.ApiGateway.csproj", "{EF809CEF-C34A-4C9C-A299-3355A2D1006E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF809CEF-C34A-4C9C-A299-3355A2D1006E} = {FEE59DD4-3024-4D86-A07D-26DAC5449E2C}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF809CEF-C34A-4C9C-A299-3355A2D1006E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF809CEF-C34A-4C9C-A299-3355A2D1006E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF809CEF-C34A-4C9C-A299-3355A2D1006E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF809CEF-C34A-4C9C-A299-3355A2D1006E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

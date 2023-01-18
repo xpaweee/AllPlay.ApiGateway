@@ -1,0 +1,26 @@
+{
+    "reverseProxy": {
+      "routes": {
+        "identity-service": {
+          "clusterId": "identity-service",
+          "match": {
+            "path": "identity/{**catchall}"
+          },
+          "transforms": [
+            {
+              "pathPattern": "{**catchall}"
+            }
+          ]
+        }
+      },
+      "clusters": {
+        "identity-service": {
+          "destinations": {
+            "destination1": {
+              "address": "http://localhost:5001"
+            }
+          }
+        }
+      }
+    }
+  }
